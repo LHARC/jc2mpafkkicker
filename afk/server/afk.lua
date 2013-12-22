@@ -48,7 +48,7 @@ mainLoop = function()
 		 end 
 		 
 			if v.idletime >= MaxTime then
-		    Chat:Broadcast("[Server] " .. message, Color(255, 0, 4))
+		    Chat:Broadcast("[Server] " .. player:GetName() .. message, Color(255, 0, 4))
 			players[player:GetId()].idletime = 0
 		     player:Kick(message) 
 			end
