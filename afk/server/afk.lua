@@ -44,7 +44,7 @@ mainLoop = function()
 		CountDown = MaxTime - v.idletime
 		
 		 if v.idletime >= ApproachingKick then
-		 Chat:Send(player, messagemove ..CountDown.. " segunds", Color(255, 0, 4))
+		 Chat:Send(player, messagemove ..CountDown.. " seconds", Color(255, 0, 4))
 		 end 
 		 
 			if v.idletime >= MaxTime then
